@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Todoアプリ</title>
 </head>
 <body>
   <h1>MyTodoアプリ</h1>
-  <div>
-    <input type="text" id="taskInput">
-    <button onclick="addTask()">登録</button>
+  <div class="form">
+    <input class="input" type="text" id="taskInput">
+    <button class="button" onclick="addTask()">登録</button>
   </div>
-  <span>以下に新しいタスクが追加されていく</span>
+  <span class="message">以下に新しいタスクが追加されていく</span>
   <ul id="ul"></ul>
   <script src="main.js"></script>
 </body>
